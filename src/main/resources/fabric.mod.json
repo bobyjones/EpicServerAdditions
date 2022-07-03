@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "EpicServerAdditions",
+  "version": "${version}",
+  "name": "EpicServerAdditions",
+  "description": "Server additions for Epic Minecraft Server",
+  "authors": [
+    "bobyjones"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/EpicServerAdditions/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "net.bobyjones.epicserveradditions.client.EpicServerAdditionsClient"
+    ],
+    "main": [
+      "net.bobyjones.epicserveradditions.EpicServerAdditions"
+    ]
+  },
+  "mixins": [
+    "EpicServerAdditions.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19"
+  }
+}
