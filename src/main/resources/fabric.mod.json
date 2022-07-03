@@ -1,20 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "EpicServerAdditions",
+  "id": "epicserveradditions",
   "version": "${version}",
-  "name": "EpicServerAdditions",
+  "name": "Epic Server Additions",
   "description": "Server additions for Epic Minecraft Server",
   "authors": [
     "bobyjones"
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/EpicServerAdditions/icon.png",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
-    "client": [
-      "net.bobyjones.epicserveradditions.client.EpicServerAdditionsClient"
-    ],
     "main": [
       "net.bobyjones.epicserveradditions.EpicServerAdditions"
     ]
